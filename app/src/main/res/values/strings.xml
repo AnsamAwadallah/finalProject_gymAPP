@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">projectgym</string>
+    <string name="management_of_nutrition_programmes">Management of nutrition programmes</string>
+    <string name="manage_exercises">Manage exercises</string>
+    <string name="membership_management">Membership management</string>
+    <string name="name_of_employee">Name of employee</string>
+    <string name="go_to_workout_schedule">Go to workout schedule</string>
+    <string name="go_to_nutrition_schedule">Go To nutrition schedule</string>
+    <string name="bmi">BMI</string>
+    <string name="name_of_person">Name of person</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="username">UserName</string>
+    <string name="choose_which_one_of_these_are_you">Choose which one of these are you:</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="enter_your_height">Enter your height</string>
+    <string name="result">Result</string>
+    <string name="less_than">Less than 15 Very severe weight loss 15 to 16 Severe weight loss 16 to 18.5 Weight loss 18.5 to 25 Normal weight 25 to 30 Overweight 30 to 35 first degree obesity 35 to 40 second degree obesity More than 40 very obese</string>
+    <string name="user_name">UserName:</string>
+    <string name="remember_me">Remember me</string>
+    <string name="regsitor_here">Regsitor here</string>
+    <string name="don_t_have_an_acount">Don\'t have an acount?</string>
+    <string name="log_in">Log in</string>
+    <string name="add_new_member">add new member</string>
+    <string name="delete_a_member">delete a member</string>
+    <string name="edit_member_info">edit member info</string>
+    <string name="log_out">Log out</string>
+    <string name="calculate">Calculate</string>
+    <string name="don_t_have_an_account_nregister_here">Don\'t have an Account?\nRegister here.</string>
+    <string-array name="Gender">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+</resources>

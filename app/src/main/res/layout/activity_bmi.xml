@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    style="@style/layoutStyle"
+    >
+<TableRow>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="115dp"
+        android:layout_height="103dp"
+        style="@style/logo"
+        app:srcCompat="@drawable/gym"
+        />
+</TableRow>
+    <TableRow>
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Textview"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:text="@string/enter_your_weight" />
+
+        <EditText
+            android:id="@+id/Weight"
+            style="@style/editTextStyle"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:id="@+id/textView3"
+            android:text="@string/enter_your_height"
+            style="@style/Textview"
+            />
+
+        <EditText
+            android:id="@+id/Height"
+            style="@style/editTextStyle"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+    <TableRow>
+
+        <Button
+            android:id="@+id/Calculate"
+            android:layout_width="10dp"
+            android:layout_height="50dp"
+            style="@style/buttonStyle"
+            android:text="@string/calculate"
+            android:onClick="onClickcalculat"
+            tools:ignore="OnClick" />
+        <EditText
+            android:id="@+id/bmiCalc"
+            style="@style/editTextStyle"
+            android:hint="@string/result"
+            android:inputType="textPersonName"
+            />
+
+    </TableRow>
+
+    <ScrollView android:layout_height="347dp">
+
+        <TextView
+            style="@style/Textview"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/less_than"
+            android:textSize="15dp" />
+    </ScrollView>
+</TableLayout>

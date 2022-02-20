@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layoutStyle"
+    android:layoutDirection="ltr"
+    >
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="125dp"
+        android:layout_height="51dp"
+        android:onClick="logout"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/log_out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.986"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        tools:ignore="UseSwitchCompatOrMaterialXml,UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/btnbmi2"
+        style="@style/buttonStyle"
+        android:layout_width="266dp"
+        android:layout_height="76dp"
+        android:onClick="onClickBMI"
+        android:text="@string/bmi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        style="@style/logo"
+        app:srcCompat="@drawable/gym"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textnameofemployee"
+        style="@style/Textview"
+        android:hint="@string/name_of_employee"
+        tools:layout_editor_absoluteX="143dp"
+        tools:layout_editor_absoluteY="59dp"
+        tools:ignore="MissingConstraints"
+        />
+
+    <Button
+        android:id="@+id/membership"
+        style="@style/buttonStyle"
+        android:layout_marginStart="16dp"
+        android:onClick="onClickmembership"
+        android:padding="5dp"
+        android:text="@string/membership_management"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.373" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@style/buttonStyle"
+        android:layout_marginStart="16dp"
+        android:onClick="onClickmembership"
+        android:padding="5dp"
+        android:text="@string/manage_exercises"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+        tools:ignore="UsingOnClickInXml" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@style/buttonStyle"
+        android:layout_marginStart="16dp"
+        android:padding="5dp"
+        android:text="@string/management_of_nutrition_programmes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.746" />
+</androidx.constraintlayout.widget.ConstraintLayout>
